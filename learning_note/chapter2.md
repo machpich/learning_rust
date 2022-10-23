@@ -45,3 +45,5 @@ actix-web = "1.0.8"
 serde = { version = "1.0", features = ["derive"]}
 ```
 featureなかったら全部とはならないのかな？
+
+# 2.6 並列プログラミング
