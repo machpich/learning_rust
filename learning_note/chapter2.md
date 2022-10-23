@@ -39,3 +39,9 @@ f32/f64 浮動小数点
 2022/10/23
 クレート入れてWebページを作る
 
+```shell
+[dependencies]
+actix-web = "1.0.8"
+serde = { version = "1.0", features = ["derive"]}
+```
+featureなかったら全部とはならないのかな？
