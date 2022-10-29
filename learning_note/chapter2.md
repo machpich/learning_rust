@@ -17,8 +17,8 @@ cargo clean //削除
 - 整数型の名前: サイズと符号の有無を反映  
   u64 unsined 64byte  
   f32/f64 浮動小数点
-- mut //mutable 可変変数宣言
 - let //ローカル変数宣言（可変の意味はない／JSとは違うね）
+  - mut //mutable 可変変数宣言
 - panic
     - Karnel panic みたいなもの
 
@@ -143,3 +143,8 @@ Someの返り値がTで定義された型が2つはいった配列
 ```rust
 Option<(T, T) >
 ```
+
+---
+2022/10/29
+`target/release/mandelbrot mandel.png 4000x3000 -1.20,0.35 -1,0.20  4.48s user 0.11s system 71% cpu 6.400 total`
+
