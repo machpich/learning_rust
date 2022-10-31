@@ -148,3 +148,5 @@ Option<(T, T) >
 2022/10/29
 `target/release/mandelbrot mandel.png 4000x3000 -1.20,0.35 -1,0.20  4.48s user 0.11s system 71% cpu 6.400 total`
 
+- unwrap
+expect の不親切版
